@@ -1,0 +1,977 @@
+{
+ "cases": [
+  {
+   "fn": "sections",
+   "args": [
+    "47",
+    "5"
+   ],
+   "expect": "The 47 ft of duct run in 5 ft sections takes 10 sections, leaving 3 ft."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "47",
+    "4"
+   ],
+   "expect": "The 47 ft of duct run with hangers 4 ft apart takes 13 hangers."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "9",
+    "28",
+    "60"
+   ],
+   "expect": "The 9 joints at 28 inches of tape each take 252 inches, 21 ft, and in 60 ft rolls that is 1 roll, leaving 39 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "10",
+    "11.75",
+    "1",
+    "6.40"
+   ],
+   "expect": "The 10 sections at $11.75 and 1 roll at $6.4 cost $123.90, sections $117.50 and rolls $6.40."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 ft of duct run in 1 ft sections takes 1 section, leaving 0 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "1",
+    "1",
+    "1"
+   ],
+   "expect": "The 1 joint at 1 inches of tape each take 1 inches, 1 ft, and in 1 ft rolls that is 1 roll, leaving 0 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "87589",
+    "11"
+   ],
+   "expect": "The 87589 ft of duct run in 11 ft sections takes 7963 sections, leaving 4 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "9481",
+    "27"
+   ],
+   "expect": "The 9481 ft of duct run in 27 ft sections takes 352 sections, leaving 23 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "83521",
+    "33"
+   ],
+   "expect": "The 83521 ft of duct run in 33 ft sections takes 2531 sections, leaving 2 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "52063",
+    "33"
+   ],
+   "expect": "The 52063 ft of duct run in 33 ft sections takes 1578 sections, leaving 11 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "32480",
+    "9"
+   ],
+   "expect": "The 32480 ft of duct run in 9 ft sections takes 3609 sections, leaving 1 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "34864",
+    "3"
+   ],
+   "expect": "The 34864 ft of duct run in 3 ft sections takes 11622 sections, leaving 2 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "18266",
+    "50"
+   ],
+   "expect": "The 18266 ft of duct run in 50 ft sections takes 366 sections, leaving 34 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "63047",
+    "23"
+   ],
+   "expect": "The 63047 ft of duct run in 23 ft sections takes 2742 sections, leaving 19 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "55056",
+    "8"
+   ],
+   "expect": "The 55056 ft of duct run in 8 ft sections takes 6882 sections, leaving 0 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "84978",
+    "23"
+   ],
+   "expect": "The 84978 ft of duct run in 23 ft sections takes 3695 sections, leaving 7 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "89941",
+    "10"
+   ],
+   "expect": "The 89941 ft of duct run in 10 ft sections takes 8995 sections, leaving 9 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "40957",
+    "40"
+   ],
+   "expect": "The 40957 ft of duct run in 40 ft sections takes 1024 sections, leaving 3 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "18637",
+    "7"
+   ],
+   "expect": "The 18637 ft of duct run in 7 ft sections takes 2663 sections, leaving 4 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "13021",
+    "7"
+   ],
+   "expect": "The 13021 ft of duct run in 7 ft sections takes 1861 sections, leaving 6 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "60062",
+    "7"
+   ],
+   "expect": "The 60062 ft of duct run in 7 ft sections takes 8581 sections, leaving 5 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "98133",
+    "34"
+   ],
+   "expect": "The 98133 ft of duct run in 34 ft sections takes 2887 sections, leaving 25 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "45707",
+    "10"
+   ],
+   "expect": "The 45707 ft of duct run in 10 ft sections takes 4571 sections, leaving 3 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "90055",
+    "19"
+   ],
+   "expect": "The 90055 ft of duct run in 19 ft sections takes 4740 sections, leaving 5 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "24046",
+    "26"
+   ],
+   "expect": "The 24046 ft of duct run in 26 ft sections takes 925 sections, leaving 4 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "54584",
+    "41"
+   ],
+   "expect": "The 54584 ft of duct run in 41 ft sections takes 1332 sections, leaving 28 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "18228",
+    "5"
+   ],
+   "expect": "The 18228 ft of duct run in 5 ft sections takes 3646 sections, leaving 2 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "29420",
+    "2"
+   ],
+   "expect": "The 29420 ft of duct run in 2 ft sections takes 14710 sections, leaving 0 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "53735",
+    "21"
+   ],
+   "expect": "The 53735 ft of duct run in 21 ft sections takes 2559 sections, leaving 4 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "52127",
+    "29"
+   ],
+   "expect": "The 52127 ft of duct run in 29 ft sections takes 1798 sections, leaving 15 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "30422",
+    "29"
+   ],
+   "expect": "The 30422 ft of duct run in 29 ft sections takes 1050 sections, leaving 28 ft."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "13021",
+    "12"
+   ],
+   "expect": "The 13021 ft of duct run with hangers 12 ft apart takes 1087 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "42506",
+    "52"
+   ],
+   "expect": "The 42506 ft of duct run with hangers 52 ft apart takes 819 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "63159",
+    "66"
+   ],
+   "expect": "The 63159 ft of duct run with hangers 66 ft apart takes 958 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "90248",
+    "12"
+   ],
+   "expect": "The 90248 ft of duct run with hangers 12 ft apart takes 7522 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "65445",
+    "48"
+   ],
+   "expect": "The 65445 ft of duct run with hangers 48 ft apart takes 1365 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "71167",
+    "69"
+   ],
+   "expect": "The 71167 ft of duct run with hangers 69 ft apart takes 1033 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "2045",
+    "51"
+   ],
+   "expect": "The 2045 ft of duct run with hangers 51 ft apart takes 42 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "93013",
+    "4"
+   ],
+   "expect": "The 93013 ft of duct run with hangers 4 ft apart takes 23255 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "74624",
+    "98"
+   ],
+   "expect": "The 74624 ft of duct run with hangers 98 ft apart takes 763 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "78085",
+    "17"
+   ],
+   "expect": "The 78085 ft of duct run with hangers 17 ft apart takes 4595 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "60224",
+    "20"
+   ],
+   "expect": "The 60224 ft of duct run with hangers 20 ft apart takes 3013 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "63503",
+    "95"
+   ],
+   "expect": "The 63503 ft of duct run with hangers 95 ft apart takes 670 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "66484",
+    "82"
+   ],
+   "expect": "The 66484 ft of duct run with hangers 82 ft apart takes 812 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "87475",
+    "52"
+   ],
+   "expect": "The 87475 ft of duct run with hangers 52 ft apart takes 1684 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "10260",
+    "51"
+   ],
+   "expect": "The 10260 ft of duct run with hangers 51 ft apart takes 203 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "82986",
+    "42"
+   ],
+   "expect": "The 82986 ft of duct run with hangers 42 ft apart takes 1977 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "87361",
+    "64"
+   ],
+   "expect": "The 87361 ft of duct run with hangers 64 ft apart takes 1367 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "7098",
+    "3"
+   ],
+   "expect": "The 7098 ft of duct run with hangers 3 ft apart takes 2367 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "75051",
+    "2"
+   ],
+   "expect": "The 75051 ft of duct run with hangers 2 ft apart takes 37527 hangers."
+  },
+  {
+   "fn": "hangers",
+   "args": [
+    "83948",
+    "53"
+   ],
+   "expect": "The 83948 ft of duct run with hangers 53 ft apart takes 1585 hangers."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "41481",
+    "524",
+    "8"
+   ],
+   "expect": "The 41481 joints at 524 inches of tape each take 21736044 inches, 1811337 ft, and in 8 ft rolls that is 226418 rolls, leaving 7 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "32136",
+    "130",
+    "547"
+   ],
+   "expect": "The 32136 joints at 130 inches of tape each take 4177680 inches, 348140 ft, and in 547 ft rolls that is 637 rolls, leaving 299 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "83980",
+    "124",
+    "672"
+   ],
+   "expect": "The 83980 joints at 124 inches of tape each take 10413520 inches, 867794 ft, and in 672 ft rolls that is 1292 rolls, leaving 430 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "83250",
+    "702",
+    "650"
+   ],
+   "expect": "The 83250 joints at 702 inches of tape each take 58441500 inches, 4870125 ft, and in 650 ft rolls that is 7493 rolls, leaving 325 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "12992",
+    "750",
+    "40"
+   ],
+   "expect": "The 12992 joints at 750 inches of tape each take 9744000 inches, 812000 ft, and in 40 ft rolls that is 20300 rolls, leaving 0 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "97497",
+    "681",
+    "83"
+   ],
+   "expect": "The 97497 joints at 681 inches of tape each take 66395457 inches, 5532955 ft, and in 83 ft rolls that is 66663 rolls, leaving 74 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "76511",
+    "300",
+    "716"
+   ],
+   "expect": "The 76511 joints at 300 inches of tape each take 22953300 inches, 1912775 ft, and in 716 ft rolls that is 2672 rolls, leaving 377 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "50823",
+    "678",
+    "137"
+   ],
+   "expect": "The 50823 joints at 678 inches of tape each take 34457994 inches, 2871500 ft, and in 137 ft rolls that is 20960 rolls, leaving 20 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "33625",
+    "234",
+    "234"
+   ],
+   "expect": "The 33625 joints at 234 inches of tape each take 7868250 inches, 655688 ft, and in 234 ft rolls that is 2803 rolls, leaving 214 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "76108",
+    "563",
+    "305"
+   ],
+   "expect": "The 76108 joints at 563 inches of tape each take 42848804 inches, 3570734 ft, and in 305 ft rolls that is 11708 rolls, leaving 206 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "95370",
+    "741",
+    "699"
+   ],
+   "expect": "The 95370 joints at 741 inches of tape each take 70669170 inches, 5889098 ft, and in 699 ft rolls that is 8426 rolls, leaving 676 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "99107",
+    "813",
+    "6"
+   ],
+   "expect": "The 99107 joints at 813 inches of tape each take 80573991 inches, 6714500 ft, and in 6 ft rolls that is 1119084 rolls, leaving 4 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "74379",
+    "13",
+    "58"
+   ],
+   "expect": "The 74379 joints at 13 inches of tape each take 966927 inches, 80578 ft, and in 58 ft rolls that is 1390 rolls, leaving 42 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "92830",
+    "645",
+    "383"
+   ],
+   "expect": "The 92830 joints at 645 inches of tape each take 59875350 inches, 4989613 ft, and in 383 ft rolls that is 13028 rolls, leaving 111 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "94263",
+    "218",
+    "393"
+   ],
+   "expect": "The 94263 joints at 218 inches of tape each take 20549334 inches, 1712445 ft, and in 393 ft rolls that is 4358 rolls, leaving 249 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "72835",
+    "417",
+    "704"
+   ],
+   "expect": "The 72835 joints at 417 inches of tape each take 30372195 inches, 2531017 ft, and in 704 ft rolls that is 3596 rolls, leaving 567 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "52688",
+    "619",
+    "202"
+   ],
+   "expect": "The 52688 joints at 619 inches of tape each take 32613872 inches, 2717823 ft, and in 202 ft rolls that is 13455 rolls, leaving 87 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "25213",
+    "78",
+    "763"
+   ],
+   "expect": "The 25213 joints at 78 inches of tape each take 1966614 inches, 163885 ft, and in 763 ft rolls that is 215 rolls, leaving 160 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "47375",
+    "622",
+    "485"
+   ],
+   "expect": "The 47375 joints at 622 inches of tape each take 29467250 inches, 2455605 ft, and in 485 ft rolls that is 5064 rolls, leaving 435 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "19680",
+    "524",
+    "546"
+   ],
+   "expect": "The 19680 joints at 524 inches of tape each take 10312320 inches, 859360 ft, and in 546 ft rolls that is 1574 rolls, leaving 44 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "76855",
+    "635",
+    "278"
+   ],
+   "expect": "The 76855 joints at 635 inches of tape each take 48802925 inches, 4066911 ft, and in 278 ft rolls that is 14630 rolls, leaving 229 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "55642",
+    "676",
+    "696"
+   ],
+   "expect": "The 55642 joints at 676 inches of tape each take 37613992 inches, 3134500 ft, and in 696 ft rolls that is 4504 rolls, leaving 284 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "3275",
+    "537",
+    "215"
+   ],
+   "expect": "The 3275 joints at 537 inches of tape each take 1758675 inches, 146557 ft, and in 215 ft rolls that is 682 rolls, leaving 73 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "90575",
+    "227",
+    "435"
+   ],
+   "expect": "The 90575 joints at 227 inches of tape each take 20560525 inches, 1713378 ft, and in 435 ft rolls that is 3939 rolls, leaving 87 ft."
+  },
+  {
+   "fn": "tape",
+   "args": [
+    "3924",
+    "169",
+    "894"
+   ],
+   "expect": "The 3924 joints at 169 inches of tape each take 663156 inches, 55263 ft, and in 894 ft rolls that is 62 rolls, leaving 165 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "85063",
+    "3239",
+    "91315",
+    "5466.12"
+   ],
+   "expect": "The 85063 sections at $3239 and 91315 rolls at $5466.12 cost $774657804.80, sections $275519057.00 and rolls $499138747.80."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "39419",
+    "1451.71",
+    "39177",
+    "65.76"
+   ],
+   "expect": "The 39419 sections at $1451.71 and 39177 rolls at $65.76 cost $59801236.01, sections $57224956.49 and rolls $2576279.52."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "69711",
+    "2298.52",
+    "83722",
+    "786.76"
+   ],
+   "expect": "The 69711 sections at $2298.52 and 83722 rolls at $786.76 cost $226101248.44, sections $160232127.72 and rolls $65869120.72."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "8924",
+    "9493.84",
+    "30311",
+    "5368.97"
+   ],
+   "expect": "The 8924 sections at $9493.84 and 30311 rolls at $5368.97 cost $247461877.83, sections $84723028.16 and rolls $162738849.67."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "51111",
+    "9059.89",
+    "43167",
+    "1317.81"
+   ],
+   "expect": "The 51111 sections at $9059.89 and 43167 rolls at $1317.81 cost $519945942.06, sections $463060037.79 and rolls $56885904.27."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "58660",
+    "7384.37",
+    "43639",
+    "1849.26"
+   ],
+   "expect": "The 58660 sections at $7384.37 and 43639 rolls at $1849.26 cost $513867001.34, sections $433167144.20 and rolls $80699857.14."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "46250",
+    "9262.88",
+    "90453",
+    "9124.83"
+   ],
+   "expect": "The 46250 sections at $9262.88 and 90453 rolls at $9124.83 cost $1253776447.99, sections $428408200.00 and rolls $825368247.99."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "92900",
+    "7386.94",
+    "54264",
+    "6521.18"
+   ],
+   "expect": "The 92900 sections at $7386.94 and 54264 rolls at $6521.18 cost $1040112037.52, sections $686246726.00 and rolls $353865311.52."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "9324",
+    "4963.07",
+    "71064",
+    "3579.2"
+   ],
+   "expect": "The 9324 sections at $4963.07 and 71064 rolls at $3579.2 cost $300627933.48, sections $46275664.68 and rolls $254352268.80."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "84167",
+    "2851.23",
+    "99763",
+    "4164.45"
+   ],
+   "expect": "The 84167 sections at $2851.23 and 99763 rolls at $4164.45 cost $655437500.76, sections $239979475.41 and rolls $415458025.35."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "2260",
+    "1520.88",
+    "67608",
+    "4072.35"
+   ],
+   "expect": "The 2260 sections at $1520.88 and 67608 rolls at $4072.35 cost $278760627.60, sections $3437188.80 and rolls $275323438.80."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "28463",
+    "2197.81",
+    "62669",
+    "5363.01"
+   ],
+   "expect": "The 28463 sections at $2197.81 and 62669 rolls at $5363.01 cost $398650739.72, sections $62556266.03 and rolls $336094473.69."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "45143",
+    "6008.59",
+    "84100",
+    "4920.78"
+   ],
+   "expect": "The 45143 sections at $6008.59 and 84100 rolls at $4920.78 cost $685083376.37, sections $271245778.37 and rolls $413837598.00."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "79076",
+    "9911",
+    "79978",
+    "3816.04"
+   ],
+   "expect": "The 79076 sections at $9911 and 79978 rolls at $3816.04 cost $1088921483.12, sections $783722236.00 and rolls $305199247.12."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "53127",
+    "3320.37",
+    "98388",
+    "4530.73"
+   ],
+   "expect": "The 53127 sections at $3320.37 and 98388 rolls at $4530.73 cost $622170760.23, sections $176401296.99 and rolls $445769463.24."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "9298",
+    "4156.93",
+    "74608",
+    "2046.09"
+   ],
+   "expect": "The 9298 sections at $4156.93 and 74608 rolls at $2046.09 cost $191305817.86, sections $38651135.14 and rolls $152654682.72."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "4580",
+    "3747.72",
+    "77244",
+    "1992.61"
+   ],
+   "expect": "The 4580 sections at $3747.72 and 77244 rolls at $1992.61 cost $171081724.44, sections $17164557.60 and rolls $153917166.84."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "4365",
+    "2150.45",
+    "19455",
+    "651.91"
+   ],
+   "expect": "The 4365 sections at $2150.45 and 19455 rolls at $651.91 cost $22069623.30, sections $9386714.25 and rolls $12682909.05."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "29636",
+    "8848.32",
+    "74588",
+    "1909.04"
+   ],
+   "expect": "The 29636 sections at $8848.32 and 74588 rolls at $1909.04 cost $404620287.04, sections $262228811.52 and rolls $142391475.52."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "47369",
+    "6234.75",
+    "27404",
+    "819.45"
+   ],
+   "expect": "The 47369 sections at $6234.75 and 27404 rolls at $819.45 cost $317790080.55, sections $295333872.75 and rolls $22456207.80."
+  }
+ ],
+ "errors": [
+  [
+   "sections",
+   [
+    "0",
+    "5"
+   ]
+  ],
+  [
+   "sections",
+   [
+    "100001",
+    "5"
+   ]
+  ],
+  [
+   "sections",
+   [
+    "47",
+    "0"
+   ]
+  ],
+  [
+   "sections",
+   [
+    "47",
+    "51"
+   ]
+  ],
+  [
+   "hangers",
+   [
+    "0",
+    "4"
+   ]
+  ],
+  [
+   "hangers",
+   [
+    "47",
+    "0"
+   ]
+  ],
+  [
+   "hangers",
+   [
+    "47",
+    "101"
+   ]
+  ],
+  [
+   "tape",
+   [
+    "0",
+    "28",
+    "60"
+   ]
+  ],
+  [
+   "tape",
+   [
+    "9",
+    "0",
+    "60"
+   ]
+  ],
+  [
+   "tape",
+   [
+    "9",
+    "1001",
+    "60"
+   ]
+  ],
+  [
+   "tape",
+   [
+    "9",
+    "28",
+    "0"
+   ]
+  ],
+  [
+   "tape",
+   [
+    "9",
+    "28",
+    "1001"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "11.75",
+    "1",
+    "6.40"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "10",
+    "0",
+    "1",
+    "6.40"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "10",
+    "11.75",
+    "0",
+    "6.40"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "10",
+    "11.75",
+    "1",
+    "0"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "10",
+    "11.75",
+    "1",
+    "10000.01"
+   ]
+  ]
+ ]
+}
